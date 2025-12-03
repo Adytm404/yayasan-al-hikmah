@@ -33,4 +33,33 @@ Sebelum menjalankan proyek ini, pastikan komputer Anda sudah terinstal:
 
 ## 🚀 Cara Instalasi dan Menjalankan
 
-Ikuti langkah-lang
+Ikuti langkah-langkah berikut untuk menjalankan website di komputer lokal Anda:
+
+1.  **Clone atau Download** repository ini.
+
+2.  **Masuk ke direktori proyek** melalui terminal:
+    ```bash
+    cd yayasan-al-hikmah
+    ```
+
+3.  **Instal dependensi:**
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan server pengembangan:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Buka Website:**
+    Akses URL yang muncul di terminal (biasanya `http://localhost:3000` atau `http://localhost:5173`) di browser Anda.
+
+    > **⚠️ Catatan Penting:** Karena Tailwind CSS dimuat menggunakan CDN (`<script src="https://cdn.tailwindcss.com"></script>`) di file `index.html`, pastikan komputer Anda **terhubung ke internet** saat menjalankan aplikasi agar tampilan (styling) muncul dengan benar.
+
+## 📦 Build untuk Produksi
+
+Jika Anda ingin mengunggah website ini ke hosting, jalankan perintah build:
+
+```bash
+npm run build
